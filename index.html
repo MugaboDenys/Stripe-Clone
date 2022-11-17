@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/dist/output.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="/src/favicon_io/favicon.ico" type="image/x-icon">
     <title>Stripe</title>
 </head>
 <body class="font-noto">
 
-    <div class="animate-gradient-hero pt-5 bg-gradient-to-r h-[73vh] from-orange-500 via-cyan-400 to-purple-600">
-        <nav class="flex justify-between w-[1024px] text-white mx-auto">            
+    <div class="absolute w-full top-3">
+        <nav class="flex justify-between max-w-[1024px] text-black mx-auto">            
             <a href="#" class="font-bold text-xl hover:opacity-70">Stripe</a>
             <div class="flex gap-x-10">
                 <a href="#" class="hover:opacity-70">Products</a>
@@ -22,8 +23,10 @@
             </div>
             <a href="#" class="bg-white bg-opacity-25 px-3 py-1 rounded-3xl hover:bg-opacity-40">Sign in</a>
         </nav>
-       <div class="relative z-10 flex">
-            <div class="mt-[10rem] ml-[450px] w-[70rem]">
+    </div>
+    <div class="relative -z-10 h-[64vh] -top-52  animate-gradient-hero bg-gradient-to-r -skew-y-12 from-red-500 via-teal-400 to-purple-500">
+        <div class="relative flex skew-y-12 top-72">
+            <div class="mt-[10rem] ml-[450px] max-w-[44rem]">
                 <h1 class="text-[5.5rem] font-extrabold tracking-tighter opacity-70 leading-none">Financial infrastructure for the internet</h1>
                 <p class="mr-10 mt-7">Millions of companies of all sizes—from startups to Fortune 500s—use Stripe’s software 
                     and APIs to accept payments, send payouts, and manage their businesses online.
@@ -39,23 +42,121 @@
             </div>
        </div>
     </div>
-    <div class="h-[64vh] -z-10 bg-white -translate-y-[20rem] -skew-y-12 ">
-        <div class="relative skew-y-12 translate-y-[28rem] w-[1024px] mx-auto grid grid-cols-4 gap-20">
-            <img src="/src/instacart.png" alt="">
-            <img src="/src/salesforcwe.png" alt="">
-            <img src="/src/amazon.png" alt="">
-            <img src="/src/slack.png" alt="">
-            <img src="/src/shopify.png" alt="">
-            <img src="/src/google.png" alt="">
-            <img src="/src/lya.png" alt="">
-            <img src="/src/zoom.png" alt="">
+    <div class="relative mt-52 max-w-[1024px] mx-auto grid grid-cols-4 gap-20">
+        <img src="/src/instacart.png" alt="">
+        <img src="/src/salesforcwe.png" alt="">
+        <img src="/src/amazon.png" alt="">
+        <img src="/src/slack.png" alt="">
+        <img src="/src/shopify.png" alt="">
+        <img src="/src/google.png" alt="">
+        <img src="/src/lya.png" alt="">
+        <img src="/src/zoom.png" alt="">
+    </div>
+    <div class="bg-slate-100 my-24 pb-20">
+        <div class="pt-10 w-[1024px] mx-auto grid grid-cols-2 gap-7">
+            <h5 class="text-lg text-indigo-500 font-bold">Unifield Platform</h5>
+            <h2 class="text-4xl font-bold col-start-1">A fully integrated suite of payments products</h2>
+            <p class="text-slate-700 text-lg col-start-1">
+                We bring together everything that’s required to build websites and apps that accept 
+                payments and send payouts globally. Stripe’s products power payments for <span><a href="#" class="text-indigo-500 hover:text-slate-900">online and in-person retailers</a>, <a href="#" class="text-indigo-500 hover:text-slate-900">subscriptions businesses</a> , <a href="#" class="text-indigo-500 hover:text-slate-900">software platforms and marketplaces</a>,</span>  and everything in between. 
+            </p>
+            <p class="text-slate-700 text-lg">
+                We also help companies <span> <a href="#" class="text-indigo-500 hover:text-slate-900">beat fraud</a>, <a href="#" class="text-indigo-500 hover:text-slate-900">send invoices</a> ,<a href="#" class="text-indigo-500 hover:text-slate-900">issue virtual and physical cards</a> ,<a href="#" class="text-indigo-500 hover:text-slate-900">reduce friction at checkout</a> ,<a href="#" class="text-indigo-500 hover:text-slate-900">get financing</a> , <a href="#" class="text-indigo-500 hover:text-slate-900">manage business spend </a></span>, and much more. 
+            </p>
+            
+        </div>
+        <div class="pt-10 ml-[450px] max-w-[1024px] grid grid-cols-gallery grid-rows-gall gap-5">
+            <a href="#" class="w-max h-max my-5 inline-flex hover:bg-slate-900 duration-200 text-white font-semibold px-5 py-1 rounded-3xl bg-indigo-500">Start with payments</a>
+            <img class="row-start-2" src="/src/credit.png" alt="">
+            <img class="row-start-2" src="/src/screen.png" alt="">
+            <img class="col-start-3 row-start-1 row-span-3" src="/src/phone.svg" alt="">
+            <img class="row-start-3 row-span-2 shadow-2xl" src="/src/Screen1.png" alt="">
+            <img class="col-span-2" src="/src/radar-fraud-visual-home-en-us.png.png" alt="">
         </div>
     </div>
-    <div class="h-[30rem] bg-slate-100 -translate-y-[15rem]">
-        <div class="pt-10 w-[1024px] mx-auto">
-            <h5 class="text-lg text-indigo-500 font-bold">Unifield Platform</h5>
-            <h2 class="text-4xl font-bold">A fully integrated suite of payments products</h2>
+    <div class="pt-20 py-32 -mt-[14rem] bg-darkBlue -skew-y-6">
+        <div class="pt-32 skew-y-6 max-w-[1024px] mx-auto grid grid-cols-4 gap-5">
+            <div class="space-y-5 col-span-2">
+                <h5 class="text-paleBlue font-bold">Designed for developers</h5>
+                <h3 class="text-4xl font-bold text-white">The world’s most powerful and easy-to-use APIs</h3>
+                <p class="text-slate-400">
+                    We agonize over the right abstractions so your teams don’t need 
+                    to stitch together disparate systems or spend months integrating 
+                    payments functionality. 
+                </p>
+                <a href="#" class="bg-paleBlue px-3 py-1 inline-block rounded-3xl text-sm font-semibold hover:bg-slate-100 duration-150">Read the docs</a>
+            </div>
+            <div class="text-sm col-start-1">
+                <img src="/src/code.png" alt="">
+                <h5 class="pl-3 font-semibold text-white border-l-2 border-paleBlue">Tools for every stack</h5>
+                <p class="pl-3 text-slate-400">
+                    We offer client and server libraries in everything from React and PHP to .NET and iOS. 
+                </p>
+                <a href="#" class="pl-3 text-paleBlue hover:text-white font-semibold">See libraries </a>
+            </div>
+            <div class="text-sm">
+                <img src="/src/box.png" alt="">
+                <h5 class="pl-3 font-semibold text-white border-l-2 border-paleBlue">Prebuilt integrations</h5>
+                <p class="pl-3 text-slate-400">
+                    Use integrations for systems like Shopify, WooCommerce, NetSuite, and more. 
+                </p>
+                <a href="#" class="pl-3 text-paleBlue hover:text-white font-semibold">Explorer Partners</a>
+            </div>
+            <img class="col-start-3 row-start-1 col-span-2 row-span-2" src="/src/terminalpp.png" alt="">
         </div>
+    </div>
+    <div class="py-48 max-w-[1024px] mx-auto">
+        <h6 class="text-lg text-indigo-600 font-bold">Why Stripe</h6>
+        <h2 class=" pt-5 text-4xl font-bold w-3/4">A technology-first approach to payments and finance</h2>
+        <div class="pt-20 grid grid-cols-4 gap-10">
+            <div class="space-y-3 text-sm">
+                <img class="pl-3 w-12" src="/src/tools.png" alt="">
+                <h5 class="pl-3 font-semibold text-black border-l-2 border-blue-700">Close to the metal</h5>
+                <p class="pl-3 text-slate-600">
+                    From <span><a href="#" class="text-indigo-500">direct integrations</a></span> with card networks and banks to checkout flows in the browser, we operate on and optimize at every level of the financial stack. 
+                </p>
+            </div>
+            <div class="space-y-3 text-sm">
+                <img class="pl-3 w-12" src="/src/play.png" alt="">
+                <h5 class="pl-3 font-semibold text-black border-l-2 border-blue-700">Fastest-improving platform</h5>
+                <p class="pl-3 text-slate-600">
+                    We release <span><a href="#" class="text-indigo-500"> hundreds of features </a></span> and improvements each year to help you stay ahead of industry shifts. (On average, we deploy our production API 16x per day.) 
+                </p>
+            </div>
+            <div class="space-y-3 text-sm">
+                <img class="pl-3 w-12" src="/src/analytics.png" alt="">
+                <h5 class="pl-3 font-semibold text-black border-l-2 border-blue-700">Battle-tested reliability</h5>
+                <p class="pl-3 text-slate-600">
+                    Our systems operate with  <span><a href="#" class="text-indigo-500">99.99%+ </a></span> uptime and are highly scalable and redundant. Stripe is certified to the highest compliance standards. 
+                </p>
+            </div>
+            <div class="space-y-3 text-sm">
+                <img class="pl-3 w-12" src="/src/gear.png" alt="">
+                <h5 class="pl-3 font-semibold text-black border-l-2 border-blue-700">Intelligent optimizations</h5>
+                <p class="pl-3 text-slate-600">
+                    Our machine learning models train on <span><a href="#" class="text-indigo-500">billions </a></span> of data points and help increase revenue across conversion, fraud, revenue recovery, and more.  
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="h-[100vh] bg-darkBlue -skew-y-6">
+        <img class="absolute -mt-32" src="/src/globe_bg.png" alt="">
+        <div class="pt-48 max-w-[1024px] mx-auto skew-y-6">
+            <div class="space-y-5 ">
+                <div class="w-80">
+                    <h5 class="text-paleBlue font-bold">Global scale</h5>
+                    <h3 class="text-4xl font-bold text-white">The backbone for internet business</h3>
+                </div>
+                <p class="text-slate-400 w-3/5">
+                    For ambitious companies around the world, Stripe makes moving money as simple, borderless, 
+                    and programmable as the rest of the internet. Our teams are based in dozens of offices around 
+                    the world and we process hundreds of billions of dollars each year <a href="#" class="text-paleBlue hover:text-white">for startups to Fortune 500s.</a> 
+                </p>
+                
+            </div>
+
+        </div>
+        
     </div>
 </body>
 </html>

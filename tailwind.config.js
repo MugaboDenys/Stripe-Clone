@@ -23,6 +23,16 @@ module.exports = {
             'background-position' : 'left center'
           },
         }
+      },
+      colors : {
+        'paleBlue' : '#0fc4f2',
+        'darkBlue' : '#0a2540'
+      },
+      gridTemplateColumns : {
+        'gallery' : '1fr 2fr 16rem'
+      },
+      gridTemplateRows : {
+        'gall' : '7rem 10rem 8rem 3fr'
       }
     },
   },
