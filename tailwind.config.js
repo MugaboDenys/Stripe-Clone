@@ -12,15 +12,18 @@ module.exports = {
       animation: {
         'gradient-hero' : 'gradient-hero 15s ease infinite'
       },
+      fontSize : {
+        'h1' : '3.3rem'
+      },
       keyframes: {
         'gradient-hero' : {
           '0%, 100%' : {
-            'background-size': '400% 400%',
-            'background-position' : 'right center'
-          },
-          '100%, 20%' : {
-            'background-size': '400% 400%',
+            'background-size': '200% 100%',
             'background-position' : 'left center'
+          },
+          '50%' : {
+            'background-size': '200% 200%',
+            'background-position' : 'right center'
           },
         }
       },
