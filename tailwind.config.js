@@ -3,6 +3,9 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
+      backgroundImage : {
+        bgGlobe : 'url(/src/globebg.png)'
+      },
       width : {
         'body' : '1280px'
       },
@@ -26,6 +29,24 @@ module.exports = {
             'background-position' : 'right center'
           },
         }
+      },
+      fontSize : {
+        bigFont : '5.5rem'
+      },
+      margin : {
+        mt1 : '10rem',
+        mt2 : '14rem',
+        mt3 : '20rem'
+      },
+      width : {
+        100 : '100rem'
+      },
+      height : {
+        'h1' : '64vh',
+        'h2' : '80vh',
+        'h3' : '30rem',
+        'h4' : '60rem',
+        'h5' : '64rem'
       },
       colors : {
         'paleBlue' : '#0fc4f2',
