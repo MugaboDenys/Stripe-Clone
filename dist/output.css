@@ -525,24 +525,12 @@ video {
   top: 1.5rem;
 }
 
-.-top-52 {
-  top: -13rem;
+.-top-44 {
+  top: -11rem;
 }
 
-.top-72 {
-  top: 18rem;
-}
-
-.right-80 {
-  right: 20rem;
-}
-
-.top-16 {
-  top: 4rem;
-}
-
-.-right-36 {
-  right: -9rem;
+.top-60 {
+  top: 15rem;
 }
 
 .-top-32 {
@@ -551,30 +539,6 @@ video {
 
 .-top-72 {
   top: -18rem;
-}
-
-.top-60 {
-  top: 15rem;
-}
-
-.top-80 {
-  top: 20rem;
-}
-
-.top-7 {
-  top: 1.75rem;
-}
-
-.-top-3 {
-  top: -0.75rem;
-}
-
-.-top-4 {
-  top: -1rem;
-}
-
-.-top-44 {
-  top: -11rem;
 }
 
 .-z-10 {
@@ -661,8 +625,8 @@ video {
   margin-top: 2rem;
 }
 
-.mt-52 {
-  margin-top: 13rem;
+.mt-72 {
+  margin-top: 18rem;
 }
 
 .-mt-mt2 {
@@ -675,10 +639,6 @@ video {
 
 .-mt-52 {
   margin-top: -13rem;
-}
-
-.mt-72 {
-  margin-top: 18rem;
 }
 
 .block {
@@ -1051,10 +1011,6 @@ video {
   padding-bottom: 15rem;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
 .font-noto {
   font-family: Noto Sans, sans-serif;
 }
@@ -1062,6 +1018,11 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-xl {
@@ -1087,30 +1048,6 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.text-bigFont {
-  font-size: 5.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-extrabold {
@@ -1316,8 +1253,8 @@ video {
     margin-right: auto;
   }
 
-  .md\:ml-96 {
-    margin-left: 24rem;
+  .md\:ml-56 {
+    margin-left: 14rem;
   }
 
   .md\:mt-mt1 {
@@ -1326,34 +1263,6 @@ video {
 
   .md\:-mt-36 {
     margin-top: -9rem;
-  }
-
-  .md\:ml-80 {
-    margin-left: 20rem;
-  }
-
-  .md\:ml-4 {
-    margin-left: 1rem;
-  }
-
-  .md\:ml-48 {
-    margin-left: 12rem;
-  }
-
-  .md\:ml-52 {
-    margin-left: 13rem;
-  }
-
-  .md\:ml-5 {
-    margin-left: 1.25rem;
-  }
-
-  .md\:ml-56 {
-    margin-left: 14rem;
-  }
-
-  .md\:mt-72 {
-    margin-top: 18rem;
   }
 
   .md\:block {
@@ -1404,10 +1313,6 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .md\:bg-bgGlobe {
-    background-image: url(/src/globebg.png);
   }
 
   .md\:px-0 {
